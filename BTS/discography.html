@@ -2,21 +2,21 @@
 <html lang="en">
   <head>
     <style>
-        .row 
+        /* .row 
         {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
-/* Create two equal columns that sits next to each other */
-.col 
+
+.col-md-3 
 {
   flex: 50%;
   padding: 0 4px;
-}
+} */
 
-.col img 
+.col-md-3 img 
 {
   margin-top: 8px;
   vertical-align: middle;
@@ -28,13 +28,13 @@
   left: 10px;
   right: 5px;
   height: 100%;
-  width: 92%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #494a4bd3;
 }
 
-.col:hover .overlay {
+.col-md-3:hover .overlay {
   opacity: 0.6;
 }
 
@@ -48,6 +48,28 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+@media (max-width:620px){
+  .text{
+    font-size: 200%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  .overlay {
+  position: absolute;
+  top: 5px;
+  bottom: 8px;
+  left: 10px;
+  right: 2px;
+  height: 100%;
+  width: 100%;
+  
+}
 }
     </style>
     <!-- Required meta tags -->
@@ -90,26 +112,26 @@
       </nav>
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-md-3">
             <img src="https://ibighit.com/bts/images/bts/discography/be/rwXJxHlQ87gEiJJynB1pmScl.jpg" class="card-img-top" alt="..."> 
             <div class="overlay">
                 <div class="text"><p><B>DELUXE EDITION</p><P>BE</P></B></div>
               </div>
         </div>
-          <div class="col">
+          <div class="col-md-3">
             <img src="https://ibighit.com/bts/images/bts/discography/dynamite/Q7gBkUusiDcIYljQOMX9ow6W.jpg" class="card-img-top" alt="..."> 
    <div class="overlay">
                 <div class="text"><p><B>DIGITAL SINGLE</p><P>DYNAMITE</P></B></div>
               </div> 
            </div>
         
-          <div class="col">
+          <div class="col-md-3">
             <img src="https://ibighit.com/bts/images/bts/discography/map_of_the_soul-7/img01.jpg" class="card-img-top" alt="..."> 
             <div class="overlay">
                 <div class="text"><p><B>4TH FULL-LENGHT ALBUM</p><P>MAP OF THE SOUL:7</P></B></div>
               </div>
         </div>
-          <div class="col">
+          <div class="col-md-3">
             <img src="https://ibighit.com/bts/images/bts/discography/map_of_the_soul-persona/album-cover.jpg" class="card-img-top" alt="..."> 
             <div class="overlay">
                 <div class="text"><p><B>6TH MINI ALBUM</p><P>MAP OF THE SOUL:PERSONA</P></B></div>
@@ -117,27 +139,27 @@
         </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-answer/album-cover.jpg" class="card-img-top" alt="...">  
                 <div class="overlay">
                     <div class="text"><p><B>REPACKAGE ALBUM</p><P> LOVE YOURSELF 結 'ANSWER'</P></B></div>
                   </div>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-tear/album-cover.jpg" class="card-img-top" alt="..."> 
                 <div class="overlay">
                     <div class="text"><p><B>3RD FULL-LENGTH ALBUM</p><P>LOVE YOURSELF轉
                         ‘TEAR’</P></B></div>
                   </div>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-her/album-cover.jpg" class="card-img-top" alt="..."> 
                 <div class="overlay">
                     <div class="text"><p><B>THE 5TH MINI ALBUM</p><P>LOVE YOURSELF承
                         ‘HER’</P></B></div>
                   </div>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/you_never_walk_alone/album-cover.jpg" class="card-img-top" alt="..."> 
                 <div class="overlay">
                     <div class="text"><p><B>2ND SPECIAL ALBUM</p><P>YOU NEVER WALK ALONE</P></B></div>
@@ -145,25 +167,25 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/wings/album-cover.jpg" class="card-img-top" alt="..."> 
                 <div class="overlay">
                     <div class="text"><p><B>2ND FULL-LENGTH ALBUM</p><P>WINGS</P></B></div>
                   </div>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/young_forever/album-cover.jpg" class="card-img-top" alt="..."> 
                 <div class="overlay">
                     <div class="text"><p><B>1ST SPECIAL ALBUM</p><P>HYYH:YOUNG FOREVER</P></B></div>
                   </div>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/hwayangyeonhwa-pt2/album-cover.jpg" class="card-img-top" alt="..."> 
                 <div class="overlay">
                     <div class="text"><p><B>THE 4TH MINI ALBUM</p><P>HYYH:PT.2</P></B></div>
                   </div>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/hwayangyeonhwa-pt1/album-cover.jpg" class="card-img-top" alt="..."> 
                 <div class="overlay">
                     <div class="text"><p><B>THE 3RD MINI ALBUM </p><P>HYYH:PT.1</P></B></div>
@@ -171,25 +193,25 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/dark_and_wild/album-cover.jpg" class="card-img-top" alt="..."> 
                 <div class="overlay">
                     <div class="text"><p><B>1ST FULL-LENGTH ALBUM</p><P>DARK & WILD</P></B></div>
                   </div>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/skool_luv_affair/album-cover.jpg" class="card-img-top" alt="..."> 
                 <div class="overlay">
                     <div class="text"><p><B>THE 2ND MINI ALBUM</p><P>SKOOL LUV AFFAIR</P></B></div>
                   </div>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/o_rul8_2/album-cover.jpg" class="card-img-top" alt="..."> 
                 <div class="overlay">
                     <div class="text"><p><B>THE 1ST MINI ALBUM</p><P>O!RUL8,2?</P></B></div>
                   </div>
             </div>
-            <div class="col">
+            <div class="col-md-3">
                 <img src="https://ibighit.com/bts/images/bts/discography/2_cool_4_school/album-cover.jpg" class="card-img-top" alt="..."> 
                 <div class="overlay">
                     <div class="text"><p><B>THE 1ST SINGLE ALBUM</p><P>2 COOL 4 SKOOL</P></B></div>
